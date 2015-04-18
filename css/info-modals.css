@@ -1,3 +1,14 @@
+/* 
+Author: Danko Milutinovic
+Desctiption: 
+  This css code is for modal windows which 
+  appears on pages: measurements-men.html 
+  and measurements-women.html. It also contains some fixes for the
+  apperiance of the canvas in firefox browser (same pages)  
+Contact:  dankomilutinovic@gmail.com, 
+          https://rs.linkedin.com/pub/danko-milutinovic/a3/675/778 
+*/
+
 .field-wrap > div {
 	margin-right: 8px;
 }
@@ -25,7 +36,11 @@
     .custombox-show, .custombox-close {
     	left: 56% !important;
     }
-	/* 3d image (canvas) fix for firefox */
+    .info-btn {
+    	width: 19px;
+    	padding-right: 3px;
+    }
+	/* 3d model size and position (canvas) fix for firefox */
     canvas {
     	margin-top: 0;
 		margin-left: -320px;
