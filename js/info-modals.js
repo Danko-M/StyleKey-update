@@ -9,6 +9,7 @@ Contact:  dankomilutinovic@gmail.com,
 */
 
 $(function () {
+
   var modalSettings = {
     effect : 'fadein',
     overlayColor :'#fff',
@@ -21,5 +22,5 @@ $(function () {
     $.fn.custombox( this, modalSettings);
     e.preventDefault();
   });
-
+  
 });

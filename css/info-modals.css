@@ -93,7 +93,9 @@ Contact:  dankomilutinovic@gmail.com,
 	height: 23px;
 	background: transparent url(../img/error.png) -204px -50px;
 }
-.col-1-2 ol {padding-left: 13px;}
+.col-1-2 ol {
+	padding-left: 13px;
+}
 .col-1-2 ol li {
 	line-height: 16px;
 	margin-bottom: 10px;	
