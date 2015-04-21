@@ -42,9 +42,9 @@ Contact:  dankomilutinovic@gmail.com,
     }
 	/* 3d model size and position (canvas) fix for firefox */
     canvas {
+	    width: 1050px !important;
     	margin-top: 0;
 		margin-left: -320px;
-	    width: 1050px !important;
 	}
 }
 .info-btn:hover {
@@ -52,8 +52,8 @@ Contact:  dankomilutinovic@gmail.com,
 }
 .custombox-modal-content {
 	width: 540px;
-	background: #fff;
 	padding: 20px;
+	background: #fff;
 	border: 1px solid #767678;
   	-webkit-border-radius: 3px; 
   	-moz-border-radius: 3px;
@@ -85,12 +85,12 @@ Contact:  dankomilutinovic@gmail.com,
   	color: #000;
 }
 .col-1-2 h3:before {
-	display: inline-block;
 	position: absolute;
-	content: "";
 	left: -5px;
+	display: inline-block;
 	width: 14px;
 	height: 23px;
+	content: "";
 	background: transparent url(../img/error.png) -204px -50px;
 }
 .col-1-2 ol {
@@ -102,9 +102,9 @@ Contact:  dankomilutinovic@gmail.com,
 }
 .modal-close { 
 	position: absolute;
-	width: 35px;
 	top: -6px;
 	right: 0;
+	width: 35px;
 	padding-left: 1px;
 	background: #396b6c;
 	font-size: 40px;
